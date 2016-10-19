@@ -57,7 +57,7 @@ function draw() {
     
     // 여기서는 눈, 코, 입 중앙 기준으로 작성되어 있습니다. 
     // 눈(27번) 위에 눈에 해당하는 이미지를 올립니다.
-    image(img1, positions[27][0], positions[27][1], 70, 70);
+    image(img1, positions[1][0], positions[1][1], 70, 70);
     image(img1, positions[32][0], positions[32][1], 70, 70);
 
     // 코(62번) 위에 눈에 해당하는 이미지를 올립니다.
