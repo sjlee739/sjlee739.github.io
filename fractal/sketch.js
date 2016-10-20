@@ -24,7 +24,7 @@ function drawCircle(x,y,r) {
     // and one to the right
     drawCircle(x + r/3, y, r/3);
     drawCircle(x - r/3, y, r/3);
-    drawCircle(x + 2r/3, y, r/3);
-    drawCircle(x - 2r/3, y, r/3);
+    drawCircle(x + 2*r/3, y, r/3);
+    drawCircle(x - 2*r/3, y, r/3);
   }
 }
